@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17126"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CommentViewController" customModule="HappyBabyNotes" customModuleProvider="target">
+            <connections>
+                <outlet property="commentTextView" destination="hd2-dN-N6Q" id="Ot1-ab-Qif"/>
+                <outlet property="dateLabel" destination="jEt-YE-tKC" id="inI-0R-jX3"/>
+                <outlet property="saveButton" destination="QVP-JJ-EE0" id="Cit-eZ-0Ku"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT" customClass="CollectionViewCell" customModule="HappyBabyNotes" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="s1h-wB-MOP" userLabel="Round View" customClass="RoundView" customModule="HappyBabyNotes" customModuleProvider="target">
+                    <rect key="frame" x="10" y="44" width="394" height="420"/>
+                    <subviews>
+                        <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="hd2-dN-N6Q">
+                            <rect key="frame" x="75" y="30" width="293" height="312"/>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                            <color key="textColor" systemColor="labelColor"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                        </textView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jEt-YE-tKC">
+                            <rect key="frame" x="75" y="8" width="293" height="21"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QVP-JJ-EE0">
+                            <rect key="frame" x="305" y="370" width="63" height="30"/>
+                            <state key="normal" title="Button"/>
+                            <connections>
+                                <action selector="saveButtonTapped:" destination="-1" eventType="touchUpInside" id="AMI-Cn-H17"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="QVP-JJ-EE0" secondAttribute="trailing" constant="26" id="0DU-Nx-aQP"/>
+                        <constraint firstItem="hd2-dN-N6Q" firstAttribute="leading" secondItem="s1h-wB-MOP" secondAttribute="leading" constant="75" id="2Mg-BY-hgw"/>
+                        <constraint firstAttribute="trailing" secondItem="jEt-YE-tKC" secondAttribute="trailing" constant="26" id="Hum-wS-gxX"/>
+                        <constraint firstAttribute="bottom" secondItem="QVP-JJ-EE0" secondAttribute="bottom" constant="20" symbolic="YES" id="KGo-oX-fZK"/>
+                        <constraint firstItem="hd2-dN-N6Q" firstAttribute="top" secondItem="jEt-YE-tKC" secondAttribute="bottom" constant="1" id="OOb-1N-omz"/>
+                        <constraint firstAttribute="trailing" secondItem="hd2-dN-N6Q" secondAttribute="trailing" constant="26" id="V0a-79-XPe"/>
+                        <constraint firstItem="hd2-dN-N6Q" firstAttribute="top" secondItem="s1h-wB-MOP" secondAttribute="top" constant="30" id="bDN-qf-J9P"/>
+                        <constraint firstItem="QVP-JJ-EE0" firstAttribute="leading" secondItem="s1h-wB-MOP" secondAttribute="leading" constant="305" id="fun-z6-HPv"/>
+                        <constraint firstItem="hd2-dN-N6Q" firstAttribute="top" secondItem="jEt-YE-tKC" secondAttribute="bottom" constant="1" id="ice-bN-EZi"/>
+                        <constraint firstAttribute="bottom" secondItem="hd2-dN-N6Q" secondAttribute="bottom" constant="78" id="n3O-kk-XYO"/>
+                        <constraint firstItem="QVP-JJ-EE0" firstAttribute="top" secondItem="hd2-dN-N6Q" secondAttribute="bottom" constant="28" id="qwU-r1-VdM"/>
+                        <constraint firstItem="jEt-YE-tKC" firstAttribute="leading" secondItem="s1h-wB-MOP" secondAttribute="leading" constant="75" id="upi-Y2-zHe"/>
+                        <constraint firstItem="jEt-YE-tKC" firstAttribute="top" secondItem="s1h-wB-MOP" secondAttribute="top" constant="8" id="zFG-Z4-b5m"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <constraints>
+                <constraint firstItem="s1h-wB-MOP" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="IS3-7M-MhR"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="s1h-wB-MOP" secondAttribute="trailing" constant="10" id="Kee-q1-Gqz"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="s1h-wB-MOP" secondAttribute="bottom" constant="398" id="W0G-90-IMz"/>
+                <constraint firstItem="s1h-wB-MOP" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="10" id="rqP-6t-BJT"/>
+            </constraints>
+            <point key="canvasLocation" x="-42.028985507246382" y="49.553571428571423"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

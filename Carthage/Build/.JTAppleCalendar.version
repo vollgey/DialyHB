@@ -1,0 +1,11 @@
+{
+  "commitish" : "7.1.8",
+  "iOS" : [
+    {
+      "hash" : "5c070d4317dd875ee01247c596fcedc9c8ae1124eb6a7944fa31071c7c2f2070",
+      "name" : "JTAppleCalendar",
+      "linking" : "dynamic",
+      "swiftToolchainVersion" : "5.3.1 (swiftlang-1200.0.41 clang-1200.0.32.8)"
+    }
+  ]
+}

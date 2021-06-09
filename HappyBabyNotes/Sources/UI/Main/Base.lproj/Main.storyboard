@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ojs-Ez-hIw">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="collection view cell content view" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="Wyb-En-fJR">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ojs-Ez-hIw" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" alpha="0.69999999999999996" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="avz-r4-cCk">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="WWf-Zv-Sb9" kind="relationship" relationship="rootViewController" id="6uH-Uq-HEb"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QFB-I3-TzK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1008.8" y="-4.0479760119940034"/>
+        </scene>
+        <!--Main View Controller-->
+        <scene sceneID="04G-1k-0fc">
+            <objects>
+                <viewController id="WWf-Zv-Sb9" userLabel="Main View Controller" customClass="MainViewController" customModule="HappyBabyNotes" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="FZv-9e-NTg">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7oI-y4-GUf">
+                                <rect key="frame" x="0.0" y="44" width="375" height="574"/>
+                            </containerView>
+                            <tabBar alpha="0.69999999999999996" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="boM-kl-7ci">
+                                <rect key="frame" x="0.0" y="618" width="375" height="49"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <items>
+                                    <tabBarItem tag="1" title="Now" id="Lla-0K-vut"/>
+                                    <tabBarItem tag="2" title="Jump" id="XKQ-GG-4Gt"/>
+                                    <tabBarItem tag="3" title="Save" id="1gR-If-fXo"/>
+                                </items>
+                                <connections>
+                                    <outlet property="delegate" destination="WWf-Zv-Sb9" id="cSa-f7-fza"/>
+                                </connections>
+                            </tabBar>
+                            <collectionView hidden="YES" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="Zi5-Jc-GZu">
+                                <rect key="frame" x="0.0" y="44" width="375" height="574"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="OWv-YE-epq">
+                                    <size key="itemSize" width="375" height="49"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="cell" id="1i3-8u-Zuh">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="4pm-Ao-1v3">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="paU-JT-32Q">
+                                                    <rect key="frame" x="164" y="11" width="46" height="30"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <state key="normal" title="Button"/>
+                                                </button>
+                                            </subviews>
+                                        </collectionViewCellContentView>
+                                        <color key="backgroundColor" name="LightBlue"/>
+                                        <size key="customSize" width="375" height="49"/>
+                                    </collectionViewCell>
+                                </cells>
+                            </collectionView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="boM-kl-7ci" firstAttribute="bottom" secondItem="apn-ob-Ujr" secondAttribute="bottom" id="7b8-p5-ObZ"/>
+                            <constraint firstItem="boM-kl-7ci" firstAttribute="leading" secondItem="apn-ob-Ujr" secondAttribute="leading" id="D9e-sm-DVx"/>
+                            <constraint firstItem="7oI-y4-GUf" firstAttribute="top" secondItem="apn-ob-Ujr" secondAttribute="top" id="Ew1-uQ-t37"/>
+                            <constraint firstItem="apn-ob-Ujr" firstAttribute="trailing" secondItem="7oI-y4-GUf" secondAttribute="trailing" id="MPF-wW-9Dr"/>
+                            <constraint firstItem="7oI-y4-GUf" firstAttribute="leading" secondItem="apn-ob-Ujr" secondAttribute="leading" id="b4J-X7-VFS"/>
+                            <constraint firstItem="boM-kl-7ci" firstAttribute="trailing" secondItem="apn-ob-Ujr" secondAttribute="trailing" id="o9i-aP-VxU"/>
+                            <constraint firstItem="boM-kl-7ci" firstAttribute="top" secondItem="7oI-y4-GUf" secondAttribute="bottom" id="xnm-tO-0aV"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="apn-ob-Ujr"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="yyyy年MM月dd日(EE)" id="awK-v9-aAI">
+                        <barButtonItem key="backBarButtonItem" title="Home" id="hxB-DP-fjn"/>
+                        <barButtonItem key="leftBarButtonItem" title="Item" id="7Q2-ZC-v8D">
+                            <connections>
+                                <action selector="handleBabyButton:" destination="WWf-Zv-Sb9" id="rmQ-ju-Nri"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" image="Setting" id="a3Y-5Z-7uH">
+                            <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <connections>
+                                <action selector="onSettingsButtonTapped:" destination="WWf-Zv-Sb9" id="bmr-eJ-dfs"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="babyColllectionView" destination="Zi5-Jc-GZu" id="FdL-nl-tUt"/>
+                        <outlet property="backView" destination="FZv-9e-NTg" id="QOO-PJ-o4h"/>
+                        <outlet property="containerView" destination="7oI-y4-GUf" id="hnO-Pb-oVx"/>
+                        <outlet property="mainTabbar" destination="boM-kl-7ci" id="80v-8u-Wue"/>
+                        <outlet property="todayLabel" destination="awK-v9-aAI" id="11V-CF-5ec"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="egU-OJ-Lbm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1872.8" y="-4.0479760119940034"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Setting" width="32" height="32"/>
+        <namedColor name="LightBlue">
+            <color red="0.60784313725490191" green="0.97647058823529409" blue="0.96078431372549022" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

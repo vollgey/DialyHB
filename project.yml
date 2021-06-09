@@ -1,0 +1,32 @@
+name: HappyBabyNotes
+fileGroups:
+  - Configurations
+configFiles:
+  Debug: Configurations/Debug.xcconfig
+  Release: Configurations/Release.xcconfig
+targets:
+  HappyBabyNotes:
+    type: application
+    platform: iOS
+    deploymentTarget: "10.15"
+    sources: HappyBabyNotes
+    configFiles:
+      Debug: Configurations/HappyBabyNotes-Debug.xcconfig
+      Release: Configurations/HappyBabyNotes-Release.xcconfig
+    settings:
+      CURRENT_PROJECT_VERSION: 1
+    preBuildScripts:
+      - name: SwiftLint
+        script: |
+          if which swiftlint >/dev/null; then
+            swiftlint autocorrect --format
+          else
+            echo "warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint"
+          fi
+    dependencies:
+      - carthage: JTAppleCalendar
+      - carthage: RxSwift
+      - carthage: RxRelay
+      - carthage: RxCocoa
+      - carthage: SQLite
+      - carthage: SwiftDate

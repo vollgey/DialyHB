@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="NoteViewController" customModule="HappyBabyNotes" customModuleProvider="target">
+            <connections>
+                <outlet property="collectionViewFlowLayout" destination="tyM-fg-haN" id="eHM-Yc-Bsa"/>
+                <outlet property="collectionViewHeightConstraint" destination="KEz-So-bH6" id="LwN-Kv-Oy8"/>
+                <outlet property="commentLabel" destination="5ca-Pw-W09" id="pl1-qJ-CDM"/>
+                <outlet property="commentTextView" destination="mS6-M7-Nhe" id="xEy-ak-ob7"/>
+                <outlet property="dateCollectionView" destination="f1R-dh-whE" id="dAL-R0-9wG"/>
+                <outlet property="view" destination="WlR-9r-lys" id="0a1-G3-ju1"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="WlR-9r-lys">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" keyboardDismissMode="interactive" translatesAutoresizingMaskIntoConstraints="NO" id="wAr-Kb-pxR">
+                    <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                    <subviews>
+                        <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" keyboardDismissMode="interactive" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="f1R-dh-whE" userLabel="Note Collection View">
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="1920"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="1920" id="KEz-So-bH6"/>
+                            </constraints>
+                            <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="tyM-fg-haN">
+                                <size key="itemSize" width="375" height="80"/>
+                                <size key="headerReferenceSize" width="0.0" height="24"/>
+                                <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            </collectionViewFlowLayout>
+                            <cells/>
+                            <collectionReusableView key="sectionHeaderView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" reuseIdentifier="header" id="zQa-eF-EOR">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="24"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gGg-8l-E0W">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="24"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TIME" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K3T-wZ-azS" customClass="ColumnLabel" customModule="HappyBabyNotes" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="0.0" width="32" height="24"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="32" id="TnM-Ag-bvq"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SLEEP" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dPz-pw-Kpl" customClass="ColumnLabel" customModule="HappyBabyNotes" customModuleProvider="target">
+                                                <rect key="frame" x="32" y="0.0" width="48" height="24"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="48" id="LHD-sZ-LKB"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MILK" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FMu-eW-6IG" customClass="ColumnLabel" customModule="HappyBabyNotes" customModuleProvider="target">
+                                                <rect key="frame" x="80" y="0.0" width="48" height="24"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="DIPER" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fKN-sw-h1R" customClass="ColumnLabel" customModule="HappyBabyNotes" customModuleProvider="target">
+                                                <rect key="frame" x="128" y="0.0" width="48" height="24"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MEMO" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VWL-qy-grl" customClass="ColumnLabel" customModule="HappyBabyNotes" customModuleProvider="target">
+                                                <rect key="frame" x="176" y="0.0" width="238" height="24"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="dPz-pw-Kpl" firstAttribute="width" secondItem="FMu-eW-6IG" secondAttribute="width" id="nII-tv-LTU"/>
+                                            <constraint firstItem="FMu-eW-6IG" firstAttribute="width" secondItem="fKN-sw-h1R" secondAttribute="width" id="qRT-dp-gjY"/>
+                                        </constraints>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="gGg-8l-E0W" secondAttribute="bottom" id="QOX-ha-vFj"/>
+                                    <constraint firstItem="gGg-8l-E0W" firstAttribute="leading" secondItem="zQa-eF-EOR" secondAttribute="leading" id="Zmu-mJ-SFp"/>
+                                    <constraint firstAttribute="trailing" secondItem="gGg-8l-E0W" secondAttribute="trailing" id="cfn-Qi-tKR"/>
+                                    <constraint firstItem="gGg-8l-E0W" firstAttribute="top" secondItem="zQa-eF-EOR" secondAttribute="top" id="hgy-je-N5N"/>
+                                </constraints>
+                            </collectionReusableView>
+                        </collectionView>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jCJ-Bg-5x9">
+                            <rect key="frame" x="0.0" y="1920" width="414" height="160"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5ca-Pw-W09">
+                                    <rect key="frame" x="8" y="7.9999999999999982" width="41.666666666666664" height="20.333333333333329"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="mS6-M7-Nhe">
+                                    <rect key="frame" x="8" y="32.333333333333265" width="398" height="119.66666666666669"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                </textView>
+                            </subviews>
+                            <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="160" id="0ef-75-Nmv"/>
+                                <constraint firstAttribute="bottom" secondItem="mS6-M7-Nhe" secondAttribute="bottom" constant="8" id="87z-EU-Oga"/>
+                                <constraint firstAttribute="trailing" secondItem="mS6-M7-Nhe" secondAttribute="trailing" constant="8" id="KIp-pA-mYP"/>
+                                <constraint firstItem="mS6-M7-Nhe" firstAttribute="top" secondItem="5ca-Pw-W09" secondAttribute="bottom" constant="4" id="LYQ-KO-qyL"/>
+                                <constraint firstItem="mS6-M7-Nhe" firstAttribute="leading" secondItem="jCJ-Bg-5x9" secondAttribute="leading" constant="8" id="V6i-zD-3ex"/>
+                                <constraint firstItem="5ca-Pw-W09" firstAttribute="top" secondItem="jCJ-Bg-5x9" secondAttribute="top" constant="8" id="fEU-xz-GzA"/>
+                                <constraint firstItem="5ca-Pw-W09" firstAttribute="leading" secondItem="jCJ-Bg-5x9" secondAttribute="leading" constant="8" id="gkj-e9-vR4"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="jCJ-Bg-5x9" secondAttribute="bottom" id="4SP-hg-FD7"/>
+                        <constraint firstItem="jCJ-Bg-5x9" firstAttribute="top" secondItem="f1R-dh-whE" secondAttribute="bottom" id="9FM-ic-Fd4"/>
+                        <constraint firstItem="f1R-dh-whE" firstAttribute="leading" secondItem="wAr-Kb-pxR" secondAttribute="leading" id="Bhh-Vg-lhI"/>
+                        <constraint firstItem="jCJ-Bg-5x9" firstAttribute="leading" secondItem="wAr-Kb-pxR" secondAttribute="leading" id="Kt2-gl-FeZ"/>
+                        <constraint firstAttribute="trailing" secondItem="jCJ-Bg-5x9" secondAttribute="trailing" id="XfP-V5-Orh"/>
+                        <constraint firstItem="f1R-dh-whE" firstAttribute="top" secondItem="wAr-Kb-pxR" secondAttribute="top" id="oVk-cG-m2m"/>
+                        <constraint firstAttribute="trailing" secondItem="f1R-dh-whE" secondAttribute="trailing" id="xHG-Uj-UIe"/>
+                    </constraints>
+                </scrollView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="wAr-Kb-pxR" firstAttribute="leading" secondItem="deS-Z5-p2Y" secondAttribute="leading" id="BjS-jY-Ea9"/>
+                <constraint firstItem="deS-Z5-p2Y" firstAttribute="trailing" secondItem="wAr-Kb-pxR" secondAttribute="trailing" id="MgW-uk-YdC"/>
+                <constraint firstItem="deS-Z5-p2Y" firstAttribute="bottom" secondItem="wAr-Kb-pxR" secondAttribute="bottom" id="PjS-It-k1U"/>
+                <constraint firstItem="deS-Z5-p2Y" firstAttribute="leading" secondItem="f1R-dh-whE" secondAttribute="leading" id="kM3-oa-ju3"/>
+                <constraint firstItem="deS-Z5-p2Y" firstAttribute="trailing" secondItem="f1R-dh-whE" secondAttribute="trailing" id="mYE-4Z-VAt"/>
+                <constraint firstItem="wAr-Kb-pxR" firstAttribute="top" secondItem="deS-Z5-p2Y" secondAttribute="top" id="tKS-7a-Ldm"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="deS-Z5-p2Y"/>
+            <point key="canvasLocation" x="139" y="94"/>
+        </view>
+    </objects>
+</document>

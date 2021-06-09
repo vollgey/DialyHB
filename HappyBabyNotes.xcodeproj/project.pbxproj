@@ -1,0 +1,1151 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00F6A654FF5F40B0459786D0 /* ColumnLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BFB4293AE94F802150692A3 /* ColumnLabel.swift */; };
+		01474B510C4491C61FB75D78 /* SelectBabyButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6BFBFCB3486DC52F0AA1DC02 /* SelectBabyButton.xib */; };
+		029B5FD607059025CEACF3AE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA1E24C9771CD3201C93CED /* AppDelegate.swift */; };
+		03B2FA792E819E8896D63289 /* BCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B132892522C03230B6134051 /* BCViewController.swift */; };
+		0447AF5EC54B213E0AF4584C /* SettingsDispatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93BF2CA016F2853650A08CA4 /* SettingsDispatcher.swift */; };
+		05D05660E6F7AEDBB4789B73 /* Diaper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D397049D58D84C268E5297 /* Diaper.swift */; };
+		085F9ED317D88DAF3197143F /* NoteModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2294A20679BD0BDE653F0218 /* NoteModel.swift */; };
+		08B12D17B0DBC4BD012BBAD7 /* BabyAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A62CF6E70B87486AD9D751 /* BabyAction.swift */; };
+		08C9CA3264B5C12011EDA417 /* PowderMilk.png in Resources */ = {isa = PBXBuildFile; fileRef = 218E7475205B87AE88FF1AC9 /* PowderMilk.png */; };
+		0D0DD3767045DF84439E8E7D /* SC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 989616BDB5F952E4E84E1A41 /* SC.storyboard */; };
+		0E462576875E34756EA21B8C /* DailyRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8140F431651A481209047C64 /* DailyRecord.swift */; };
+		0E4E9BD12D768B60FBF3BDFD /* SCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3EB0FBA6A33CFDE04897AF /* SCViewController.swift */; };
+		0E67198CA785F0B088433A37 /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 336D19BEAA6AB97FE9DD0A2C /* SettingsViewController.xib */; };
+		0EC113128EFD3448BDFDD810 /* SleepSplit1515.png in Resources */ = {isa = PBXBuildFile; fileRef = D51EDD6909357E19AD91E087 /* SleepSplit1515.png */; };
+		117AA075A7835EA796E641E3 /* BCDateCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25A3B26AF046365064C455B5 /* BCDateCell.swift */; };
+		119F6B9E223FE02B3FFCDF5D /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3C0B14D04891802DD6F643 /* Settings.swift */; };
+		140FEBFE69A4AA60B45F1697 /* NoteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAE5FF0ACD843AE1FA4469D9 /* NoteViewController.xib */; };
+		1608D3F3999D8653D4416936 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C02DE6A4EA81409989BB567 /* RxSwift.framework */; };
+		224616F0687D04A0FE125F12 /* SleepMiddle30.png in Resources */ = {isa = PBXBuildFile; fileRef = BC927980B87A3E2B905AD0CF /* SleepMiddle30.png */; };
+		240852188F5C8686DC274552 /* BooBoo.png in Resources */ = {isa = PBXBuildFile; fileRef = 3963DCDC5B54A7BAAD069E75 /* BooBoo.png */; };
+		276331411C8E329D8E0A8F14 /* SleepSplit1530.png in Resources */ = {isa = PBXBuildFile; fileRef = E1A119D59AD5BEB6670C229C /* SleepSplit1530.png */; };
+		278F5AD4248434A1EA10AE49 /* SwiftDate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A0D05DD4D28AA99464F2EC9 /* SwiftDate.framework */; };
+		27BF89CD8760725ADED0C3A7 /* MotherMilk.png in Resources */ = {isa = PBXBuildFile; fileRef = 33D948F2ED78A90873849173 /* MotherMilk.png */; };
+		2EA8C7ECDE323354A58D124F /* SleepBefore45.png in Resources */ = {isa = PBXBuildFile; fileRef = 698C35692BA9489D9E6AF20B /* SleepBefore45.png */; };
+		318A067FED8A8ECA6B6FDB7E /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 822CBCF52081C296EAFCF24B /* Cell.swift */; };
+		32EDF5239068A268510363D2 /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7667F5F7CF4684CAAA80D3C /* Database.swift */; };
+		336C671E21AD1CFAF1E399F2 /* PrintableCalendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 242E829E3737E625DA22C979 /* PrintableCalendar.swift */; };
+		342E5012439F98CF5495B877 /* RxRelay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7FBF73A2B228A41A5B41DFE /* RxRelay.framework */; };
+		38E24151682DE71F5F408EC3 /* SettingsAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011D325C231778E81EED6DE4 /* SettingsAction.swift */; };
+		3CD12D84A262DACAB6E80C4A /* NotePageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1CD2EFC446CB3753D9A778 /* NotePageViewModel.swift */; };
+		3D712AA2B25B4616B87E081C /* SleepAfter.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BF0D6E041CF6E6AA220780B /* SleepAfter.png */; };
+		3F5B82EB22883F0E6129532D /* RoundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831A3C73D2E97531D9CA500E /* RoundView.swift */; };
+		426EC867B2024ED0FF598555 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBCD92956BE9F77F66F0F05 /* CalendarViewController.swift */; };
+		45D1D59B92E57A6173398C4E /* Language.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55279B9F883C83809F99A18 /* Language.swift */; };
+		4B52A7A820FB1267AEDD694D /* CalendarDateCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59FFFA72F5DB33C42B6B773 /* CalendarDateCell.swift */; };
+		4CED8931D958B5429679A222 /* SleepMiddle45.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D9AD43CF8FFD293AC58A156 /* SleepMiddle45.png */; };
+		4D5108B2A46C18E634696AC6 /* NoteCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3ED417D99F1C56D12F534C7 /* NoteCellModel.swift */; };
+		4E1FD2883C0433716513BD81 /* MainDispatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE3538AE6F35A727CBD6922 /* MainDispatcher.swift */; };
+		4F87ACBEE1BAF902A145EED8 /* BabyUnit.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC45825E9A272FBFC6EFC571 /* BabyUnit.swift */; };
+		531019E34F72DE45239209C5 /* MainStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD047CC6B06E3562D8DFA49E /* MainStore.swift */; };
+		534DD3C098307615CFD6847D /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0272B5D024FE04D4CF1732 /* SettingsViewModel.swift */; };
+		54530DDFAB52688F46D7E7E0 /* NoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31A593EF43CBA1A40833AA7 /* NoteViewController.swift */; };
+		551F57E6A35497DD5E1E527B /* Food.png in Resources */ = {isa = PBXBuildFile; fileRef = A0E5EDA287A275342CE9EDE6 /* Food.png */; };
+		594072C5B3E973D6E9D145C8 /* Sleep.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7966275135466FCFF7131EEC /* Sleep.swift */; };
+		5A780FCEE5F394700633A8F8 /* SleepAll.png in Resources */ = {isa = PBXBuildFile; fileRef = E8E117BCB05078B8C8F6BDB9 /* SleepAll.png */; };
+		5D184C4235FECA20626F69D7 /* CalnedarStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E43E52AF961B59F76875A9 /* CalnedarStore.swift */; };
+		5F03CEB68F131CA849602154 /* MemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957903411FCDA98C7C4E30C7 /* MemoViewController.swift */; };
+		623750CBBD68964DCDE2FC9E /* PopoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5644044F5F321F12496629F /* PopoverViewController.swift */; };
+		660C8E629313F6AFBE1D0663 /* SettingsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C368F6D44C47E326719B1D /* SettingsStore.swift */; };
+		680DE94F97D8C647B401A2DB /* CommentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72E5DE986ADDC36F82A1359B /* CommentViewController.swift */; };
+		684600B4F35CEC899232CA92 /* CommentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3A5B8661DED22966F605876 /* CommentViewController.xib */; };
+		6A3D6059745F721FB55F7EBA /* BabyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B0A45301C683F16CD2CE6D /* BabyModel.swift */; };
+		6D18DF3F3F8FFED0CF2A14A1 /* SleepMiddle15.png in Resources */ = {isa = PBXBuildFile; fileRef = 9705CB0E39242DABE0C73E96 /* SleepMiddle15.png */; };
+		6FED1F3A0D56684436A1CC1D /* MotherAndPowderMilk.png in Resources */ = {isa = PBXBuildFile; fileRef = 44E4224D0F9A26E952962D64 /* MotherAndPowderMilk.png */; };
+		7192621DCAFA6418C6594605 /* Milk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FCD4F4DAA09111D4302EB03 /* Milk.swift */; };
+		71A9F547D7C577B9526E8427 /* CalendarAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3178BAC1C0C9420D8D8A0FF8 /* CalendarAction.swift */; };
+		72E7C40EFEC8F6502F7425B5 /* DateHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7DBFDB41D949FAF8B08F5E0 /* DateHeader.swift */; };
+		772FA5647EBCE5A2AA58461B /* MenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BCEE373736732988509B353 /* MenuViewController.xib */; };
+		7A3A6D79B33D98458A415467 /* Flux.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D1F8A3003CF865BD0124A21 /* Flux.swift */; };
+		7DE1FEA243C3998859624A15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89825CD6F7F058B5578A8272 /* LaunchScreen.storyboard */; };
+		7F7013319E21FBC230DA5ADB /* BooBooAndTiti.png in Resources */ = {isa = PBXBuildFile; fileRef = BB38939F872AF10D096BCA73 /* BooBooAndTiti.png */; };
+		80110C103ECADB11E54408C9 /* NoteCellType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991A2518536F3AF8D0F0CF9B /* NoteCellType.swift */; };
+		803482E5E4C9E4CFF2014C0B /* SCDateCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3328E51F6C3A39A9C3DAAF06 /* SCDateCell.swift */; };
+		86DF53E04FF96A131EB9116A /* NoteDispatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C32ACE225A30D397639E64D /* NoteDispatcher.swift */; };
+		87F8C16FC5F6A75E97E7AD01 /* SQLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D225BEAC694DF94D71BA723 /* SQLite.framework */; };
+		8862BBF05880F21810C4A23B /* BabyDispatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = F450835522B560FBB7B45B48 /* BabyDispatcher.swift */; };
+		8A4065F15B494F02751E62CE /* ModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A6B67458277ACF7EEC6A20 /* ModelProtocol.swift */; };
+		8A9E0F328DF118571706A2BE /* CalendarHTMLFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8596FA3B465C776A022BE4DA /* CalendarHTMLFormatter.swift */; };
+		8CCB7F9BF8E0B591F318B3A8 /* Value.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78EF67D304B025F49562536F /* Value.swift */; };
+		8F9E87592947A4DEDB1881F5 /* AlertType.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA97C0E06CC83586785D30C /* AlertType.swift */; };
+		904692AD2AAF4F70E796D3B8 /* BorderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2864C30F359AFFC9E345EC91 /* BorderView.swift */; };
+		93D1180E997C8CB29096F942 /* MainAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77D50385AFA939C057ACDAD /* MainAction.swift */; };
+		9445B97FA2ADCFFD68547331 /* SetDateView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A1B4213489207B42F3F86C0F /* SetDateView.xib */; };
+		981DBCC5A565540504554B1D /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0FBA580CECC9EE06D1F97D2 /* Image.swift */; };
+		9BA9174F1026B1B419D8B5FD /* ThemeCollerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A320F4901443774418C428 /* ThemeCollerViewController.swift */; };
+		9C6E6D285F96B6FB5E7ED5CE /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9894CEF8796BF46A151ECD46 /* SettingView.swift */; };
+		A86CB533B618257CF2CBA842 /* NoteCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FCE5C586925F23E4E21FF70 /* NoteCellViewModel.swift */; };
+		AA74FCAF98E5F16D1EF38344 /* ThemeCollerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BDF0DB4E9644F61D40C8D072 /* ThemeCollerViewController.xib */; };
+		AD629548A0F4276F70BA3B48 /* SetDateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C51A02D738E443A31695B2 /* SetDateView.swift */; };
+		AE23ADB34B5D4C5BD86CFFD3 /* NotePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B0C1D59790381489C6B7C0 /* NotePageViewController.swift */; };
+		AE9BCA19366A0C603E3441DF /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25FEE8821BD5E648FF1DAAC /* SettingsViewController.swift */; };
+		AF6473B18D8196390B2D8BE3 /* NoteViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F8E48E1BA857A87961683D /* NoteViewDataSource.swift */; };
+		AF71138EAAECAB66AF2547B5 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 792E8EDBEAF18734DF07EEF0 /* MenuViewController.swift */; };
+		B21BE41C6C382452871CEDFE /* PopoverViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D69D97431BF56DFA2D71E19 /* PopoverViewController.xib */; };
+		B251FB6ACF1158F4708BEE6D /* FoodAndMotherMilk.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E6337F8ACCF5BC11342D060 /* FoodAndMotherMilk.png */; };
+		B268AD06BEE8F63655A04200 /* SleepUnit.swift in Sources */ = {isa = PBXBuildFile; fileRef = C835CDC8888BEF51B95CE770 /* SleepUnit.swift */; };
+		B385383CD029358643B8B3E1 /* SelectBabyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0213333AE95B72CB16FF08B6 /* SelectBabyButton.swift */; };
+		B46F0EE6D6D75E379B9D131F /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD490242E4B81B307880B25A /* MainViewController.swift */; };
+		B808E026354625C3C9DAC651 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5C9F0A38BDCEAEC3EE7B58E /* Assets.xcassets */; };
+		BA6D7F8BFCD1567F9761E78C /* SleepUnitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62858684D50D0AAC2D1EEAF5 /* SleepUnitViewController.swift */; };
+		BB6569961D4785D9552127E3 /* style.css in Resources */ = {isa = PBXBuildFile; fileRef = E572B3CC72F70760172DCF8F /* style.css */; };
+		BD39CD8D4B10C583DE24AF0B /* BabyStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 266B5DE32EC6C95491C82500 /* BabyStore.swift */; };
+		C11D0717E2431701935D68B1 /* NoteViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC3B245B7D1D02BE1B8F03E8 /* NoteViewController.storyboard */; };
+		C3C02F4D52DFD98CC976D65B /* BabyNameViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1941ECC361584445DA09485E /* BabyNameViewController.xib */; };
+		C3F28F879229E7487954AD46 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BAF35D8E90E1BD062A4A9A /* MainViewModel.swift */; };
+		C44FEC4C3295649787687902 /* Baby.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD318CD3CEEB6DB826D6921E /* Baby.swift */; };
+		C4A5CA319F6F8D79270F0E7D /* CalendarDispatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63E64923A2B07BB15192660 /* CalendarDispatcher.swift */; };
+		C4FFC052099A241E36EE9201 /* NoteStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF805EF8B5F754BCEDD7908 /* NoteStore.swift */; };
+		CD0BBBF254646EA38D70B337 /* NSObjectProtocol.extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF35A08E7E0A039673578E2 /* NSObjectProtocol.extension.swift */; };
+		D0FEF5993C2A103E7AD889E0 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67250EF0A04128F96A86AF7C /* RxCocoa.framework */; };
+		D4DD8CF72BEE743F39E48B1F /* SaveView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1EF3FA62F3B56723E897F400 /* SaveView.xib */; };
+		D54740FBE5E41F6665C32518 /* SettingsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9AC98CDB795329864801D1 /* SettingsModel.swift */; };
+		D722B9401577DAF3ED57A1AC /* CommentAndDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = A097AB7BC1587FE4C127B772 /* CommentAndDetails.swift */; };
+		DA20DC0E8AE047F74EA1C16E /* SettingsViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = D78DA6A710361F101A4CDFDD /* SettingsViewDataSource.swift */; };
+		DD2AD1A476EEFD61BA7CA254 /* BabyNameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37AD9BB3D0B928FCDAD4F97 /* BabyNameViewController.swift */; };
+		DD56ED361A586D10F15A11AD /* NotePageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9048869F37A3A646FF85DEF9 /* NotePageModel.swift */; };
+		DEEEC8D5A894D68ED2B5F020 /* Record.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943ECBEDDB099EB743374852 /* Record.swift */; };
+		E1056CFB0A19A5671F2A3F5A /* SleepBefore.png in Resources */ = {isa = PBXBuildFile; fileRef = DB358A3C60DDA6BC2B631715 /* SleepBefore.png */; };
+		E13D52AE3940712171FC112A /* SleepAfter15.png in Resources */ = {isa = PBXBuildFile; fileRef = A45945E1FA7C3D3CEFBEC872 /* SleepAfter15.png */; };
+		E42E62374B0F3836757D6CA0 /* HourlyRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC25FE10ED90FCE01D6BC1E /* HourlyRecord.swift */; };
+		E8180EBF238B8C0DE94A942C /* NameTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314073BD2C79AF8B0A9F85B4 /* NameTextField.swift */; };
+		E8EF5AE2E050C4A64FEC1B42 /* Calendar.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07217D993E446BDF05F04C1F /* Calendar.storyboard */; };
+		E91EA6F98796060C148D0210 /* FoodAndPowderMilk.png in Resources */ = {isa = PBXBuildFile; fileRef = B8E9B20A51C349E248303E6C /* FoodAndPowderMilk.png */; };
+		EA7D67B06EAC1526E2B01139 /* SaveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6163E963E35B0C27D42264 /* SaveView.swift */; };
+		EAB53E5AD13EE0AE8934485D /* DatabaseHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C688556E96577DD8CD1CD84B /* DatabaseHelper.swift */; };
+		EBF80C632B55B88FBD31AF6D /* SleepUnitViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD990B8401CE440881185DA2 /* SleepUnitViewController.xib */; };
+		ECCF3936BF058552D12EDCF1 /* JTAppleCalendar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E64650D7B159D70AF9040AC5 /* JTAppleCalendar.framework */; };
+		ECEC6092B12D738CA320FC1B /* Titi.png in Resources */ = {isa = PBXBuildFile; fileRef = 90940130D17767238FC38CCB /* Titi.png */; };
+		EEB548822792B0B0A1FA1467 /* NoteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4739F4450219A089F2879FB /* NoteViewModel.swift */; };
+		EFE660D7142B7F98C60F6391 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CBA8C3EF840005F2EA53A97 /* Theme.swift */; };
+		F15928B243EB37D7DC268BC3 /* DateTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 546783010A4FE17E0E67AE1B /* DateTextField.swift */; };
+		F2C79116FC2928FAD3B41713 /* BC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADC8E01503314A258EEFBC27 /* BC.storyboard */; };
+		F63EAEA90BAA7FB1E742BB77 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E10D8F58B720CF94A0AF32F /* CalendarView.swift */; };
+		F6DD5C81C77E2B397749F21F /* MemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85E881AB9169130DCBFF3EAF /* MemoViewController.xib */; };
+		F7F6E8E6DD67F9821E3E7C83 /* PopoverType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF21E3C0545CAAD758783D9 /* PopoverType.swift */; };
+		F998E986E3E82E9F58067242 /* NoteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44369B7F03EDF80E2E71E88A /* NoteCell.swift */; };
+		FA11B6E43575C99F145D0825 /* SleepBefore15.png in Resources */ = {isa = PBXBuildFile; fileRef = 67C0DA99C9B1471C77236933 /* SleepBefore15.png */; };
+		FA76F434EA2AA1A825A2C965 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E1A45C3BCC4D9FE118FD38 /* UIViewController.swift */; };
+		FAC47E29D7D4B66EF32F2485 /* SleepSplit3015.png in Resources */ = {isa = PBXBuildFile; fileRef = 1620A5E8F5FE48B945BBB5FF /* SleepSplit3015.png */; };
+		FB4AD85098961209A703E0A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 041DAAF606E53F8AF5D17B68 /* Main.storyboard */; };
+		FCB5662B9FA215D48E00C7A1 /* SettingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 20ACCFDDF5A2AF4F8E9D7D0F /* SettingView.xib */; };
+		FCD1C7086C5BEFB700DB9B9C /* NoteCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAE88AA32B5A806012DFB07D /* NoteCell.xib */; };
+		FE77ED4B93954A0CCE15C901 /* NoteAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8D50015E9C41B30B9973B3 /* NoteAction.swift */; };
+		FFD50136561B9683AC0CF94E /* HTMLRendererViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69FF70D288B284AE5080DE1 /* HTMLRendererViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		00C368F6D44C47E326719B1D /* SettingsStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsStore.swift; sourceTree = "<group>"; };
+		011D325C231778E81EED6DE4 /* SettingsAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsAction.swift; sourceTree = "<group>"; };
+		0213333AE95B72CB16FF08B6 /* SelectBabyButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectBabyButton.swift; sourceTree = "<group>"; };
+		07217D993E446BDF05F04C1F /* Calendar.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Calendar.storyboard; sourceTree = "<group>"; };
+		08B0C1D59790381489C6B7C0 /* NotePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotePageViewController.swift; sourceTree = "<group>"; };
+		1620A5E8F5FE48B945BBB5FF /* SleepSplit3015.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SleepSplit3015.png; sourceTree = "<group>"; };
+		1941ECC361584445DA09485E /* BabyNameViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BabyNameViewController.xib; sourceTree = "<group>"; };
+		19A62CF6E70B87486AD9D751 /* BabyAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BabyAction.swift; sourceTree = "<group>"; };
+		1EF3FA62F3B56723E897F400 /* SaveView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SaveView.xib; sourceTree = "<group>"; };
+		1FCE5C586925F23E4E21FF70 /* NoteCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteCellViewModel.swift; sourceTree = "<group>"; };
+		20ACCFDDF5A2AF4F8E9D7D0F /* SettingView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingView.xib; sourceTree = "<group>"; };
+		218E7475205B87AE88FF1AC9 /* PowderMilk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PowderMilk.png; sourceTree = "<group>"; };
+		2294A20679BD0BDE653F0218 /* NoteModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteModel.swift; sourceTree = "<group>"; };
+		242E829E3737E625DA22C979 /* PrintableCalendar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrintableCalendar.swift; sourceTree = "<group>"; };
+		25A3B26AF046365064C455B5 /* BCDateCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BCDateCell.swift; sourceTree = "<group>"; };
+		266B5DE32EC6C95491C82500 /* BabyStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BabyStore.swift; sourceTree = "<group>"; };
+		2864C30F359AFFC9E345EC91 /* BorderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderView.swift; sourceTree = "<group>"; };
+		2BF0D6E041CF6E6AA220780B /* SleepAfter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SleepAfter.png; sourceTree = "<group>"; };
+		314073BD2C79AF8B0A9F85B4 /* NameTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameTextField.swift; sourceTree = "<group>"; };
+		3178BAC1C0C9420D8D8A0FF8 /* CalendarAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarAction.swift; sourceTree = "<group>"; };
+		3328E51F6C3A39A9C3DAAF06 /* SCDateCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCDateCell.swift; sourceTree = "<group>"; };
+		336D19BEAA6AB97FE9DD0A2C /* SettingsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingsViewController.xib; sourceTree = "<group>"; };
+		33D948F2ED78A90873849173 /* MotherMilk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MotherMilk.png; sourceTree = "<group>"; };
+		34662C129DF984E19994A022 /* AdaptApplesilicon.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = AdaptApplesilicon.xcconfig; sourceTree = "<group>"; };
+		3963DCDC5B54A7BAAD069E75 /* BooBoo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BooBoo.png; sourceTree = "<group>"; };
+		39A320F4901443774418C428 /* ThemeCollerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeCollerViewController.swift; sourceTree = "<group>"; };
+		3E10D8F58B720CF94A0AF32F /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		4399D0E6631F5DA2F34917D7 /* Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
+		44369B7F03EDF80E2E71E88A /* NoteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteCell.swift; sourceTree = "<group>"; };
+		44E4224D0F9A26E952962D64 /* MotherAndPowderMilk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MotherAndPowderMilk.png; sourceTree = "<group>"; };
+		4A62A812424B2476B85273C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4E6337F8ACCF5BC11342D060 /* FoodAndMotherMilk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FoodAndMotherMilk.png; sourceTree = "<group>"; };
+		546783010A4FE17E0E67AE1B /* DateTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateTextField.swift; sourceTree = "<group>"; };
+		582534FFFB1E45D1E784CE73 /* HappyBabyNotes-Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "HappyBabyNotes-Release.xcconfig"; sourceTree = "<group>"; };
+		5FEE8F60C10598B1971677BE /* HappyBabyNotes-Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "HappyBabyNotes-Debug.xcconfig"; sourceTree = "<group>"; };
+		5FF21E3C0545CAAD758783D9 /* PopoverType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopoverType.swift; sourceTree = "<group>"; };
+		5FF35A08E7E0A039673578E2 /* NSObjectProtocol.extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSObjectProtocol.extension.swift; sourceTree = "<group>"; };
+		62858684D50D0AAC2D1EEAF5 /* SleepUnitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepUnitViewController.swift; sourceTree = "<group>"; };
+		67250EF0A04128F96A86AF7C /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RxCocoa.framework; sourceTree = "<group>"; };
+		67C0DA99C9B1471C77236933 /* SleepBefore15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SleepBefore15.png; sourceTree = "<group>"; };
+		698C35692BA9489D9E6AF20B /* SleepBefore45.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SleepBefore45.png; sourceTree = "<group>"; };
+		69A6B67458277ACF7EEC6A20 /* ModelProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelProtocol.swift; sourceTree = "<group>"; };
+		6BFBFCB3486DC52F0AA1DC02 /* SelectBabyButton.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SelectBabyButton.xib; sourceTree = "<group>"; };
+		6C02DE6A4EA81409989BB567 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RxSwift.framework; sourceTree = "<group>"; };
+		71ACD6CD83E152DA200A1629 /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
+		72E5DE986ADDC36F82A1359B /* CommentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentViewController.swift; sourceTree = "<group>"; };
+		7504A962368358A728CFEB95 /* HappyBabyNotes.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = HappyBabyNotes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		78EF67D304B025F49562536F /* Value.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Value.swift; sourceTree = "<group>"; };
+		792E8EDBEAF18734DF07EEF0 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		7966275135466FCFF7131EEC /* Sleep.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sleep.swift; sourceTree = "<group>"; };
+		7A0D05DD4D28AA99464F2EC9 /* SwiftDate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SwiftDate.framework; sourceTree = "<group>"; };
+		7D225BEAC694DF94D71BA723 /* SQLite.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SQLite.framework; sourceTree = "<group>"; };
+		7D69D97431BF56DFA2D71E19 /* PopoverViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PopoverViewController.xib; sourceTree = "<group>"; };
+		8140F431651A481209047C64 /* DailyRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyRecord.swift; sourceTree = "<group>"; };
+		822CBCF52081C296EAFCF24B /* Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
+		82BAF35D8E90E1BD062A4A9A /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		831A3C73D2E97531D9CA500E /* RoundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundView.swift; sourceTree = "<group>"; };
+		8596FA3B465C776A022BE4DA /* CalendarHTMLFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarHTMLFormatter.swift; sourceTree = "<group>"; };
+		85E881AB9169130DCBFF3EAF /* MemoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MemoViewController.xib; sourceTree = "<group>"; };
+		8A9AC98CDB795329864801D1 /* SettingsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsModel.swift; sourceTree = "<group>"; };
+		8BCEE373736732988509B353 /* MenuViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MenuViewController.xib; sourceTree = "<group>"; };
+		8C2954F2EEADA739C6FB6913 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8C32ACE225A30D397639E64D /* NoteDispatcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteDispatcher.swift; sourceTree = "<group>"; };
+		8CBA8C3EF840005F2EA53A97 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		9048869F37A3A646FF85DEF9 /* NotePageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotePageModel.swift; sourceTree = "<group>"; };
+		90940130D17767238FC38CCB /* Titi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Titi.png; sourceTree = "<group>"; };
+		91D8DF017E3815A012A1B545 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		93BF2CA016F2853650A08CA4 /* SettingsDispatcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsDispatcher.swift; sourceTree = "<group>"; };
+		943ECBEDDB099EB743374852 /* Record.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Record.swift; sourceTree = "<group>"; };
+		957903411FCDA98C7C4E30C7 /* MemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoViewController.swift; sourceTree = "<group>"; };
+		9705CB0E39242DABE0C73E96 /* SleepMiddle15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SleepMiddle15.png; sourceTree = "<group>"; };
+		9894CEF8796BF46A151ECD46 /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
+		989616BDB5F952E4E84E1A41 /* SC.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SC.storyboard; sourceTree = "<group>"; };
+		991A2518536F3AF8D0F0CF9B /* NoteCellType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteCellType.swift; sourceTree = "<group>"; };
+		9A3EB0FBA6A33CFDE04897AF /* SCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCViewController.swift; sourceTree = "<group>"; };
+		9BFB4293AE94F802150692A3 /* ColumnLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColumnLabel.swift; sourceTree = "<group>"; };
+		9D1F8A3003CF865BD0124A21 /* Flux.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flux.swift; sourceTree = "<group>"; };
+		9D9AD43CF8FFD293AC58A156 /* SleepMiddle45.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SleepMiddle45.png; sourceTree = "<group>"; };
+		9FC25FE10ED90FCE01D6BC1E /* HourlyRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HourlyRecord.swift; sourceTree = "<group>"; };
+		9FCD4F4DAA09111D4302EB03 /* Milk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Milk.swift; sourceTree = "<group>"; };
+		A097AB7BC1587FE4C127B772 /* CommentAndDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentAndDetails.swift; sourceTree = "<group>"; };
+		A0E5EDA287A275342CE9EDE6 /* Food.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Food.png; sourceTree = "<group>"; };
+		A1B4213489207B42F3F86C0F /* SetDateView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SetDateView.xib; sourceTree = "<group>"; };
+		A45945E1FA7C3D3CEFBEC872 /* SleepAfter15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SleepAfter15.png; sourceTree = "<group>"; };
+		A4739F4450219A089F2879FB /* NoteViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteViewModel.swift; sourceTree = "<group>"; };
+		A55279B9F883C83809F99A18 /* Language.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Language.swift; sourceTree = "<group>"; };
+		A7667F5F7CF4684CAAA80D3C /* Database.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Database.swift; sourceTree = "<group>"; };
+		A7FBF73A2B228A41A5B41DFE /* RxRelay.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RxRelay.framework; sourceTree = "<group>"; };
+		AA3C0B14D04891802DD6F643 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		AC3B245B7D1D02BE1B8F03E8 /* NoteViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = NoteViewController.storyboard; sourceTree = "<group>"; };
+		AC45825E9A272FBFC6EFC571 /* BabyUnit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BabyUnit.swift; sourceTree = "<group>"; };
+		ADC8E01503314A258EEFBC27 /* BC.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = BC.storyboard; sourceTree = "<group>"; };
+		AF0272B5D024FE04D4CF1732 /* SettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
+		B132892522C03230B6134051 /* BCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BCViewController.swift; sourceTree = "<group>"; };
+		B37AD9BB3D0B928FCDAD4F97 /* BabyNameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BabyNameViewController.swift; sourceTree = "<group>"; };
+		B7F8E48E1BA857A87961683D /* NoteViewDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteViewDataSource.swift; sourceTree = "<group>"; };
+		B8E9B20A51C349E248303E6C /* FoodAndPowderMilk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FoodAndPowderMilk.png; sourceTree = "<group>"; };
+		BAE5FF0ACD843AE1FA4469D9 /* NoteViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NoteViewController.xib; sourceTree = "<group>"; };
+		BAE88AA32B5A806012DFB07D /* NoteCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NoteCell.xib; sourceTree = "<group>"; };
+		BB38939F872AF10D096BCA73 /* BooBooAndTiti.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BooBooAndTiti.png; sourceTree = "<group>"; };
+		BC927980B87A3E2B905AD0CF /* SleepMiddle30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SleepMiddle30.png; sourceTree = "<group>"; };
+		BD047CC6B06E3562D8DFA49E /* MainStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainStore.swift; sourceTree = "<group>"; };
+		BD990B8401CE440881185DA2 /* SleepUnitViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SleepUnitViewController.xib; sourceTree = "<group>"; };
+		BDF0DB4E9644F61D40C8D072 /* ThemeCollerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ThemeCollerViewController.xib; sourceTree = "<group>"; };
+		C3A5B8661DED22966F605876 /* CommentViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CommentViewController.xib; sourceTree = "<group>"; };
+		C3BEC4B67864E9FE04CB2072 /* HappyBabyNotes.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = HappyBabyNotes.xcconfig; sourceTree = "<group>"; };
+		C4C51A02D738E443A31695B2 /* SetDateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetDateView.swift; sourceTree = "<group>"; };
+		C688556E96577DD8CD1CD84B /* DatabaseHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseHelper.swift; sourceTree = "<group>"; };
+		C7E1A45C3BCC4D9FE118FD38 /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
+		C835CDC8888BEF51B95CE770 /* SleepUnit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepUnit.swift; sourceTree = "<group>"; };
+		CC1CD2EFC446CB3753D9A778 /* NotePageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotePageViewModel.swift; sourceTree = "<group>"; };
+		CD318CD3CEEB6DB826D6921E /* Baby.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Baby.swift; sourceTree = "<group>"; };
+		CDE3538AE6F35A727CBD6922 /* MainDispatcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainDispatcher.swift; sourceTree = "<group>"; };
+		D0FBA580CECC9EE06D1F97D2 /* Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
+		D51EDD6909357E19AD91E087 /* SleepSplit1515.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SleepSplit1515.png; sourceTree = "<group>"; };
+		D78DA6A710361F101A4CDFDD /* SettingsViewDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewDataSource.swift; sourceTree = "<group>"; };
+		D8D397049D58D84C268E5297 /* Diaper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Diaper.swift; sourceTree = "<group>"; };
+		DB358A3C60DDA6BC2B631715 /* SleepBefore.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SleepBefore.png; sourceTree = "<group>"; };
+		DC6163E963E35B0C27D42264 /* SaveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveView.swift; sourceTree = "<group>"; };
+		DD490242E4B81B307880B25A /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		DDA97C0E06CC83586785D30C /* AlertType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertType.swift; sourceTree = "<group>"; };
+		DE8D50015E9C41B30B9973B3 /* NoteAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteAction.swift; sourceTree = "<group>"; };
+		DFBCD92956BE9F77F66F0F05 /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
+		DFF1228A392A63094371F00C /* Base.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Base.xcconfig; sourceTree = "<group>"; };
+		DFF805EF8B5F754BCEDD7908 /* NoteStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteStore.swift; sourceTree = "<group>"; };
+		E1A119D59AD5BEB6670C229C /* SleepSplit1530.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SleepSplit1530.png; sourceTree = "<group>"; };
+		E1E43E52AF961B59F76875A9 /* CalnedarStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalnedarStore.swift; sourceTree = "<group>"; };
+		E25FEE8821BD5E648FF1DAAC /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		E31A593EF43CBA1A40833AA7 /* NoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteViewController.swift; sourceTree = "<group>"; };
+		E572B3CC72F70760172DCF8F /* style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = style.css; sourceTree = "<group>"; };
+		E59FFFA72F5DB33C42B6B773 /* CalendarDateCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarDateCell.swift; sourceTree = "<group>"; };
+		E5C9F0A38BDCEAEC3EE7B58E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E64650D7B159D70AF9040AC5 /* JTAppleCalendar.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = JTAppleCalendar.framework; sourceTree = "<group>"; };
+		E7DBFDB41D949FAF8B08F5E0 /* DateHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateHeader.swift; sourceTree = "<group>"; };
+		E8E117BCB05078B8C8F6BDB9 /* SleepAll.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SleepAll.png; sourceTree = "<group>"; };
+		ECA1E24C9771CD3201C93CED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F2B0A45301C683F16CD2CE6D /* BabyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BabyModel.swift; sourceTree = "<group>"; };
+		F3ED417D99F1C56D12F534C7 /* NoteCellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteCellModel.swift; sourceTree = "<group>"; };
+		F450835522B560FBB7B45B48 /* BabyDispatcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BabyDispatcher.swift; sourceTree = "<group>"; };
+		F5644044F5F321F12496629F /* PopoverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopoverViewController.swift; sourceTree = "<group>"; };
+		F63E64923A2B07BB15192660 /* CalendarDispatcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarDispatcher.swift; sourceTree = "<group>"; };
+		F69FF70D288B284AE5080DE1 /* HTMLRendererViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTMLRendererViewController.swift; sourceTree = "<group>"; };
+		F77D50385AFA939C057ACDAD /* MainAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainAction.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ABDBA91910EBEB40AA637AF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECCF3936BF058552D12EDCF1 /* JTAppleCalendar.framework in Frameworks */,
+				1608D3F3999D8653D4416936 /* RxSwift.framework in Frameworks */,
+				342E5012439F98CF5495B877 /* RxRelay.framework in Frameworks */,
+				D0FEF5993C2A103E7AD889E0 /* RxCocoa.framework in Frameworks */,
+				87F8C16FC5F6A75E97E7AD01 /* SQLite.framework in Frameworks */,
+				278F5AD4248434A1EA10AE49 /* SwiftDate.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		12D3580C92D9E71CD07E628A /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				5FF35A08E7E0A039673578E2 /* NSObjectProtocol.extension.swift */,
+				78EF67D304B025F49562536F /* Value.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		1AE57236E104822C22420DEC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E97FD2199D21DA40E35F256F /* BirthdayCalendar */,
+				57B204094B1ED12B9C39B4A3 /* Custom */,
+				A91B70A2AC5FE321089C8F17 /* Extensions */,
+				9698EEBFE9AF992171BAA400 /* IBDesignable */,
+				34FC1C28D68469845461984F /* Menu */,
+				6B86128ECDC35D68E49A3F44 /* NewCalendar */,
+				4A2433D9E2C9C927F5B3F1A5 /* SaveCalendar */,
+				3FE689A2477EF0F2957F4000 /* SaveView */,
+				28AC85EA7D4207CCB64B5459 /* SelectBabyButton */,
+				CB1FB20439F0D668901D6367 /* SettingView */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1ECD4AF37DE1693D67D498A2 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				F77D50385AFA939C057ACDAD /* MainAction.swift */,
+				CDE3538AE6F35A727CBD6922 /* MainDispatcher.swift */,
+				BD047CC6B06E3562D8DFA49E /* MainStore.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		23053E5A3AA240B77BBA9DFC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E5C9F0A38BDCEAEC3EE7B58E /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		28AC85EA7D4207CCB64B5459 /* SelectBabyButton */ = {
+			isa = PBXGroup;
+			children = (
+				0213333AE95B72CB16FF08B6 /* SelectBabyButton.swift */,
+				6BFBFCB3486DC52F0AA1DC02 /* SelectBabyButton.xib */,
+			);
+			path = SelectBabyButton;
+			sourceTree = "<group>";
+		};
+		34F02B9370EAD7D2461FA1BF = {
+			isa = PBXGroup;
+			children = (
+				61C953A61371DD0D738BF2C1 /* Configurations */,
+				B041CC452AE2EA180F0A7444 /* HappyBabyNotes */,
+				807D597C4A575DC384FB75EC /* Frameworks */,
+				E3C335107D3638CB386A4E7B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		34FC1C28D68469845461984F /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				792E8EDBEAF18734DF07EEF0 /* MenuViewController.swift */,
+				8BCEE373736732988509B353 /* MenuViewController.xib */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		3FE689A2477EF0F2957F4000 /* SaveView */ = {
+			isa = PBXGroup;
+			children = (
+				DC6163E963E35B0C27D42264 /* SaveView.swift */,
+				1EF3FA62F3B56723E897F400 /* SaveView.xib */,
+			);
+			path = SaveView;
+			sourceTree = "<group>";
+		};
+		450BF5C3A0816D7AF9A6640A /* Baby */ = {
+			isa = PBXGroup;
+			children = (
+				19A62CF6E70B87486AD9D751 /* BabyAction.swift */,
+				F450835522B560FBB7B45B48 /* BabyDispatcher.swift */,
+				266B5DE32EC6C95491C82500 /* BabyStore.swift */,
+			);
+			path = Baby;
+			sourceTree = "<group>";
+		};
+		48BD2C6EADAEC47CF0F3481A /* Popover */ = {
+			isa = PBXGroup;
+			children = (
+				F5644044F5F321F12496629F /* PopoverViewController.swift */,
+				7D69D97431BF56DFA2D71E19 /* PopoverViewController.xib */,
+			);
+			path = Popover;
+			sourceTree = "<group>";
+		};
+		4A2433D9E2C9C927F5B3F1A5 /* SaveCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				989616BDB5F952E4E84E1A41 /* SC.storyboard */,
+				3328E51F6C3A39A9C3DAAF06 /* SCDateCell.swift */,
+				9A3EB0FBA6A33CFDE04897AF /* SCViewController.swift */,
+			);
+			path = SaveCalendar;
+			sourceTree = "<group>";
+		};
+		57B204094B1ED12B9C39B4A3 /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				546783010A4FE17E0E67AE1B /* DateTextField.swift */,
+				314073BD2C79AF8B0A9F85B4 /* NameTextField.swift */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
+		5B494C43B4367133F3FA8786 /* NoteCell */ = {
+			isa = PBXGroup;
+			children = (
+				44369B7F03EDF80E2E71E88A /* NoteCell.swift */,
+				BAE88AA32B5A806012DFB07D /* NoteCell.xib */,
+				1FCE5C586925F23E4E21FF70 /* NoteCellViewModel.swift */,
+			);
+			path = NoteCell;
+			sourceTree = "<group>";
+		};
+		61C953A61371DD0D738BF2C1 /* Configurations */ = {
+			isa = PBXGroup;
+			children = (
+				34662C129DF984E19994A022 /* AdaptApplesilicon.xcconfig */,
+				DFF1228A392A63094371F00C /* Base.xcconfig */,
+				4399D0E6631F5DA2F34917D7 /* Debug.xcconfig */,
+				5FEE8F60C10598B1971677BE /* HappyBabyNotes-Debug.xcconfig */,
+				582534FFFB1E45D1E784CE73 /* HappyBabyNotes-Release.xcconfig */,
+				C3BEC4B67864E9FE04CB2072 /* HappyBabyNotes.xcconfig */,
+				71ACD6CD83E152DA200A1629 /* Release.xcconfig */,
+			);
+			path = Configurations;
+			sourceTree = "<group>";
+		};
+		6B86128ECDC35D68E49A3F44 /* NewCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				07217D993E446BDF05F04C1F /* Calendar.storyboard */,
+				E59FFFA72F5DB33C42B6B773 /* CalendarDateCell.swift */,
+				3E10D8F58B720CF94A0AF32F /* CalendarView.swift */,
+				DFBCD92956BE9F77F66F0F05 /* CalendarViewController.swift */,
+				E7DBFDB41D949FAF8B08F5E0 /* DateHeader.swift */,
+			);
+			path = NewCalendar;
+			sourceTree = "<group>";
+		};
+		6DA6E787213C88D551405CBF /* Clalendar */ = {
+			isa = PBXGroup;
+			children = (
+				3178BAC1C0C9420D8D8A0FF8 /* CalendarAction.swift */,
+				F63E64923A2B07BB15192660 /* CalendarDispatcher.swift */,
+				E1E43E52AF961B59F76875A9 /* CalnedarStore.swift */,
+			);
+			path = Clalendar;
+			sourceTree = "<group>";
+		};
+		6F525B38410FC6F59DC7FF51 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				011D325C231778E81EED6DE4 /* SettingsAction.swift */,
+				93BF2CA016F2853650A08CA4 /* SettingsDispatcher.swift */,
+				00C368F6D44C47E326719B1D /* SettingsStore.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		807D597C4A575DC384FB75EC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8CB8F6446EC86B9C5A946F7F /* Carthage */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8CB8F6446EC86B9C5A946F7F /* Carthage */ = {
+			isa = PBXGroup;
+			children = (
+				CC88EECFFE55FB322FA8C40A /* iOS */,
+			);
+			name = Carthage;
+			path = Carthage/Build;
+			sourceTree = "<group>";
+		};
+		8FC74DAEE10BB0DFBC946B7A /* Comment */ = {
+			isa = PBXGroup;
+			children = (
+				72E5DE986ADDC36F82A1359B /* CommentViewController.swift */,
+				C3A5B8661DED22966F605876 /* CommentViewController.xib */,
+			);
+			path = Comment;
+			sourceTree = "<group>";
+		};
+		901E16CD4826DF2C3B0A78F5 /* milk */ = {
+			isa = PBXGroup;
+			children = (
+				A0E5EDA287A275342CE9EDE6 /* Food.png */,
+				4E6337F8ACCF5BC11342D060 /* FoodAndMotherMilk.png */,
+				B8E9B20A51C349E248303E6C /* FoodAndPowderMilk.png */,
+				44E4224D0F9A26E952962D64 /* MotherAndPowderMilk.png */,
+				33D948F2ED78A90873849173 /* MotherMilk.png */,
+				218E7475205B87AE88FF1AC9 /* PowderMilk.png */,
+			);
+			path = milk;
+			sourceTree = "<group>";
+		};
+		95C8E8159ABA283AD13F7991 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				DDA97C0E06CC83586785D30C /* AlertType.swift */,
+				AC45825E9A272FBFC6EFC571 /* BabyUnit.swift */,
+				A097AB7BC1587FE4C127B772 /* CommentAndDetails.swift */,
+				C688556E96577DD8CD1CD84B /* DatabaseHelper.swift */,
+				D8D397049D58D84C268E5297 /* Diaper.swift */,
+				D0FBA580CECC9EE06D1F97D2 /* Image.swift */,
+				A55279B9F883C83809F99A18 /* Language.swift */,
+				9FCD4F4DAA09111D4302EB03 /* Milk.swift */,
+				991A2518536F3AF8D0F0CF9B /* NoteCellType.swift */,
+				5FF21E3C0545CAAD758783D9 /* PopoverType.swift */,
+				7966275135466FCFF7131EEC /* Sleep.swift */,
+				C835CDC8888BEF51B95CE770 /* SleepUnit.swift */,
+				8CBA8C3EF840005F2EA53A97 /* Theme.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		9698EEBFE9AF992171BAA400 /* IBDesignable */ = {
+			isa = PBXGroup;
+			children = (
+				2864C30F359AFFC9E345EC91 /* BorderView.swift */,
+				9BFB4293AE94F802150692A3 /* ColumnLabel.swift */,
+				831A3C73D2E97531D9CA500E /* RoundView.swift */,
+			);
+			path = IBDesignable;
+			sourceTree = "<group>";
+		};
+		9863C322386113B850A68228 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				DB372860D0A9E4E6DBA85394 /* Common */,
+				E6D8624D79CFC8ABB929935C /* UI */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		99BD699353CF205ACE956694 /* diaper */ = {
+			isa = PBXGroup;
+			children = (
+				3963DCDC5B54A7BAAD069E75 /* BooBoo.png */,
+				BB38939F872AF10D096BCA73 /* BooBooAndTiti.png */,
+				90940130D17767238FC38CCB /* Titi.png */,
+			);
+			path = diaper;
+			sourceTree = "<group>";
+		};
+		A4DD9FF3B93C4AA236B0FED0 /* Memo */ = {
+			isa = PBXGroup;
+			children = (
+				957903411FCDA98C7C4E30C7 /* MemoViewController.swift */,
+				85E881AB9169130DCBFF3EAF /* MemoViewController.xib */,
+			);
+			path = Memo;
+			sourceTree = "<group>";
+		};
+		A657AB7E081FCCFFA6B23FDF /* images */ = {
+			isa = PBXGroup;
+			children = (
+				99BD699353CF205ACE956694 /* diaper */,
+				901E16CD4826DF2C3B0A78F5 /* milk */,
+				DBC6DC132FE9428D87E5C99B /* sleep */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		A91B70A2AC5FE321089C8F17 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				C7E1A45C3BCC4D9FE118FD38 /* UIViewController.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		ACD34E63EA1A5FA15BF8CF97 /* SetDateView */ = {
+			isa = PBXGroup;
+			children = (
+				C4C51A02D738E443A31695B2 /* SetDateView.swift */,
+				A1B4213489207B42F3F86C0F /* SetDateView.xib */,
+			);
+			path = SetDateView;
+			sourceTree = "<group>";
+		};
+		B041CC452AE2EA180F0A7444 /* HappyBabyNotes */ = {
+			isa = PBXGroup;
+			children = (
+				91D8DF017E3815A012A1B545 /* Info.plist */,
+				23053E5A3AA240B77BBA9DFC /* Resources */,
+				9863C322386113B850A68228 /* Sources */,
+			);
+			path = HappyBabyNotes;
+			sourceTree = "<group>";
+		};
+		BBCBC46A42B367C99FAA6E7C /* NotePage */ = {
+			isa = PBXGroup;
+			children = (
+				08B0C1D59790381489C6B7C0 /* NotePageViewController.swift */,
+				CC1CD2EFC446CB3753D9A778 /* NotePageViewModel.swift */,
+			);
+			path = NotePage;
+			sourceTree = "<group>";
+		};
+		CB1FB20439F0D668901D6367 /* SettingView */ = {
+			isa = PBXGroup;
+			children = (
+				9894CEF8796BF46A151ECD46 /* SettingView.swift */,
+				20ACCFDDF5A2AF4F8E9D7D0F /* SettingView.xib */,
+			);
+			path = SettingView;
+			sourceTree = "<group>";
+		};
+		CC88EECFFE55FB322FA8C40A /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				E64650D7B159D70AF9040AC5 /* JTAppleCalendar.framework */,
+				67250EF0A04128F96A86AF7C /* RxCocoa.framework */,
+				A7FBF73A2B228A41A5B41DFE /* RxRelay.framework */,
+				6C02DE6A4EA81409989BB567 /* RxSwift.framework */,
+				7D225BEAC694DF94D71BA723 /* SQLite.framework */,
+				7A0D05DD4D28AA99464F2EC9 /* SwiftDate.framework */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		D108550E83EECFC71E0D447F /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				041DAAF606E53F8AF5D17B68 /* Main.storyboard */,
+				DD490242E4B81B307880B25A /* MainViewController.swift */,
+				82BAF35D8E90E1BD062A4A9A /* MainViewModel.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		DAD794C0A94503B028D67B94 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				CD318CD3CEEB6DB826D6921E /* Baby.swift */,
+				8140F431651A481209047C64 /* DailyRecord.swift */,
+				A7667F5F7CF4684CAAA80D3C /* Database.swift */,
+				9FC25FE10ED90FCE01D6BC1E /* HourlyRecord.swift */,
+				69A6B67458277ACF7EEC6A20 /* ModelProtocol.swift */,
+				AA3C0B14D04891802DD6F643 /* Settings.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		DB372860D0A9E4E6DBA85394 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				ECA1E24C9771CD3201C93CED /* AppDelegate.swift */,
+				F2B0A45301C683F16CD2CE6D /* BabyModel.swift */,
+				89825CD6F7F058B5578A8272 /* LaunchScreen.storyboard */,
+				F3ED417D99F1C56D12F534C7 /* NoteCellModel.swift */,
+				2294A20679BD0BDE653F0218 /* NoteModel.swift */,
+				9048869F37A3A646FF85DEF9 /* NotePageModel.swift */,
+				8A9AC98CDB795329864801D1 /* SettingsModel.swift */,
+				DAD794C0A94503B028D67B94 /* Entity */,
+				12D3580C92D9E71CD07E628A /* Extension */,
+				DC22EA3B8B9AA4F3EF32E0BB /* Flux */,
+				F4E9D212F457BB269CFB6D95 /* PrintableCalendar */,
+				95C8E8159ABA283AD13F7991 /* Utility */,
+				1AE57236E104822C22420DEC /* View */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		DBC6DC132FE9428D87E5C99B /* sleep */ = {
+			isa = PBXGroup;
+			children = (
+				2BF0D6E041CF6E6AA220780B /* SleepAfter.png */,
+				A45945E1FA7C3D3CEFBEC872 /* SleepAfter15.png */,
+				E8E117BCB05078B8C8F6BDB9 /* SleepAll.png */,
+				DB358A3C60DDA6BC2B631715 /* SleepBefore.png */,
+				67C0DA99C9B1471C77236933 /* SleepBefore15.png */,
+				698C35692BA9489D9E6AF20B /* SleepBefore45.png */,
+				9705CB0E39242DABE0C73E96 /* SleepMiddle15.png */,
+				BC927980B87A3E2B905AD0CF /* SleepMiddle30.png */,
+				9D9AD43CF8FFD293AC58A156 /* SleepMiddle45.png */,
+				D51EDD6909357E19AD91E087 /* SleepSplit1515.png */,
+				E1A119D59AD5BEB6670C229C /* SleepSplit1530.png */,
+				1620A5E8F5FE48B945BBB5FF /* SleepSplit3015.png */,
+			);
+			path = sleep;
+			sourceTree = "<group>";
+		};
+		DC22EA3B8B9AA4F3EF32E0BB /* Flux */ = {
+			isa = PBXGroup;
+			children = (
+				9D1F8A3003CF865BD0124A21 /* Flux.swift */,
+				450BF5C3A0816D7AF9A6640A /* Baby */,
+				6DA6E787213C88D551405CBF /* Clalendar */,
+				1ECD4AF37DE1693D67D498A2 /* Main */,
+				E58BA795F416C443A4B37983 /* Note */,
+				6F525B38410FC6F59DC7FF51 /* Settings */,
+			);
+			path = Flux;
+			sourceTree = "<group>";
+		};
+		E3C335107D3638CB386A4E7B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7504A962368358A728CFEB95 /* HappyBabyNotes.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E58BA795F416C443A4B37983 /* Note */ = {
+			isa = PBXGroup;
+			children = (
+				DE8D50015E9C41B30B9973B3 /* NoteAction.swift */,
+				8C32ACE225A30D397639E64D /* NoteDispatcher.swift */,
+				DFF805EF8B5F754BCEDD7908 /* NoteStore.swift */,
+			);
+			path = Note;
+			sourceTree = "<group>";
+		};
+		E6D8624D79CFC8ABB929935C /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				F47EE07F769604BE0AC2280D /* Common */,
+				D108550E83EECFC71E0D447F /* Main */,
+				EAC4694F3071643CF265D6B4 /* Note */,
+				FB6ECF4AA4017F5E94788E4D /* Settings */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		E97FD2199D21DA40E35F256F /* BirthdayCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				ADC8E01503314A258EEFBC27 /* BC.storyboard */,
+				25A3B26AF046365064C455B5 /* BCDateCell.swift */,
+				B132892522C03230B6134051 /* BCViewController.swift */,
+			);
+			path = BirthdayCalendar;
+			sourceTree = "<group>";
+		};
+		EAC4694F3071643CF265D6B4 /* Note */ = {
+			isa = PBXGroup;
+			children = (
+				AC3B245B7D1D02BE1B8F03E8 /* NoteViewController.storyboard */,
+				E31A593EF43CBA1A40833AA7 /* NoteViewController.swift */,
+				BAE5FF0ACD843AE1FA4469D9 /* NoteViewController.xib */,
+				B7F8E48E1BA857A87961683D /* NoteViewDataSource.swift */,
+				A4739F4450219A089F2879FB /* NoteViewModel.swift */,
+				8FC74DAEE10BB0DFBC946B7A /* Comment */,
+				A4DD9FF3B93C4AA236B0FED0 /* Memo */,
+				5B494C43B4367133F3FA8786 /* NoteCell */,
+				BBCBC46A42B367C99FAA6E7C /* NotePage */,
+				48BD2C6EADAEC47CF0F3481A /* Popover */,
+				ACD34E63EA1A5FA15BF8CF97 /* SetDateView */,
+			);
+			path = Note;
+			sourceTree = "<group>";
+		};
+		F47EE07F769604BE0AC2280D /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				822CBCF52081C296EAFCF24B /* Cell.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		F4E9D212F457BB269CFB6D95 /* PrintableCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				8596FA3B465C776A022BE4DA /* CalendarHTMLFormatter.swift */,
+				F69FF70D288B284AE5080DE1 /* HTMLRendererViewController.swift */,
+				242E829E3737E625DA22C979 /* PrintableCalendar.swift */,
+				943ECBEDDB099EB743374852 /* Record.swift */,
+				E572B3CC72F70760172DCF8F /* style.css */,
+				A657AB7E081FCCFFA6B23FDF /* images */,
+			);
+			path = PrintableCalendar;
+			sourceTree = "<group>";
+		};
+		FB6ECF4AA4017F5E94788E4D /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				B37AD9BB3D0B928FCDAD4F97 /* BabyNameViewController.swift */,
+				1941ECC361584445DA09485E /* BabyNameViewController.xib */,
+				E25FEE8821BD5E648FF1DAAC /* SettingsViewController.swift */,
+				336D19BEAA6AB97FE9DD0A2C /* SettingsViewController.xib */,
+				D78DA6A710361F101A4CDFDD /* SettingsViewDataSource.swift */,
+				AF0272B5D024FE04D4CF1732 /* SettingsViewModel.swift */,
+				62858684D50D0AAC2D1EEAF5 /* SleepUnitViewController.swift */,
+				BD990B8401CE440881185DA2 /* SleepUnitViewController.xib */,
+				39A320F4901443774418C428 /* ThemeCollerViewController.swift */,
+				BDF0DB4E9644F61D40C8D072 /* ThemeCollerViewController.xib */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F72EC5066AA094860C2F0823 /* HappyBabyNotes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F78618FEA5561C214FB56CC /* Build configuration list for PBXNativeTarget "HappyBabyNotes" */;
+			buildPhases = (
+				1C396D2AC0395F7D406692FF /* SwiftLint */,
+				01C5948DDFAB0427609482F2 /* Sources */,
+				4C7F05C5E0BE8B1E9C18BB5C /* Resources */,
+				51BFAADA9087CE4CBAC76154 /* Carthage */,
+				ABDBA91910EBEB40AA637AF1 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HappyBabyNotes;
+			productName = HappyBabyNotes;
+			productReference = 7504A962368358A728CFEB95 /* HappyBabyNotes.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9FFAA8059A85E5C2DF9C978C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					F72EC5066AA094860C2F0823 = {
+						DevelopmentTeam = 58DYX22GUL;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C64B2A0539671812F60EC3C3 /* Build configuration list for PBXProject "HappyBabyNotes" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 34F02B9370EAD7D2461FA1BF;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F72EC5066AA094860C2F0823 /* HappyBabyNotes */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4C7F05C5E0BE8B1E9C18BB5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B808E026354625C3C9DAC651 /* Assets.xcassets in Resources */,
+				F2C79116FC2928FAD3B41713 /* BC.storyboard in Resources */,
+				C3C02F4D52DFD98CC976D65B /* BabyNameViewController.xib in Resources */,
+				240852188F5C8686DC274552 /* BooBoo.png in Resources */,
+				7F7013319E21FBC230DA5ADB /* BooBooAndTiti.png in Resources */,
+				E8EF5AE2E050C4A64FEC1B42 /* Calendar.storyboard in Resources */,
+				684600B4F35CEC899232CA92 /* CommentViewController.xib in Resources */,
+				551F57E6A35497DD5E1E527B /* Food.png in Resources */,
+				B251FB6ACF1158F4708BEE6D /* FoodAndMotherMilk.png in Resources */,
+				E91EA6F98796060C148D0210 /* FoodAndPowderMilk.png in Resources */,
+				7DE1FEA243C3998859624A15 /* LaunchScreen.storyboard in Resources */,
+				FB4AD85098961209A703E0A9 /* Main.storyboard in Resources */,
+				F6DD5C81C77E2B397749F21F /* MemoViewController.xib in Resources */,
+				772FA5647EBCE5A2AA58461B /* MenuViewController.xib in Resources */,
+				6FED1F3A0D56684436A1CC1D /* MotherAndPowderMilk.png in Resources */,
+				27BF89CD8760725ADED0C3A7 /* MotherMilk.png in Resources */,
+				FCD1C7086C5BEFB700DB9B9C /* NoteCell.xib in Resources */,
+				C11D0717E2431701935D68B1 /* NoteViewController.storyboard in Resources */,
+				140FEBFE69A4AA60B45F1697 /* NoteViewController.xib in Resources */,
+				B21BE41C6C382452871CEDFE /* PopoverViewController.xib in Resources */,
+				08C9CA3264B5C12011EDA417 /* PowderMilk.png in Resources */,
+				0D0DD3767045DF84439E8E7D /* SC.storyboard in Resources */,
+				D4DD8CF72BEE743F39E48B1F /* SaveView.xib in Resources */,
+				01474B510C4491C61FB75D78 /* SelectBabyButton.xib in Resources */,
+				9445B97FA2ADCFFD68547331 /* SetDateView.xib in Resources */,
+				FCB5662B9FA215D48E00C7A1 /* SettingView.xib in Resources */,
+				0E67198CA785F0B088433A37 /* SettingsViewController.xib in Resources */,
+				3D712AA2B25B4616B87E081C /* SleepAfter.png in Resources */,
+				E13D52AE3940712171FC112A /* SleepAfter15.png in Resources */,
+				5A780FCEE5F394700633A8F8 /* SleepAll.png in Resources */,
+				E1056CFB0A19A5671F2A3F5A /* SleepBefore.png in Resources */,
+				FA11B6E43575C99F145D0825 /* SleepBefore15.png in Resources */,
+				2EA8C7ECDE323354A58D124F /* SleepBefore45.png in Resources */,
+				6D18DF3F3F8FFED0CF2A14A1 /* SleepMiddle15.png in Resources */,
+				224616F0687D04A0FE125F12 /* SleepMiddle30.png in Resources */,
+				4CED8931D958B5429679A222 /* SleepMiddle45.png in Resources */,
+				0EC113128EFD3448BDFDD810 /* SleepSplit1515.png in Resources */,
+				276331411C8E329D8E0A8F14 /* SleepSplit1530.png in Resources */,
+				FAC47E29D7D4B66EF32F2485 /* SleepSplit3015.png in Resources */,
+				EBF80C632B55B88FBD31AF6D /* SleepUnitViewController.xib in Resources */,
+				AA74FCAF98E5F16D1EF38344 /* ThemeCollerViewController.xib in Resources */,
+				ECEC6092B12D738CA320FC1B /* Titi.png in Resources */,
+				BB6569961D4785D9552127E3 /* style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1C396D2AC0395F7D406692FF /* SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftLint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\n  swiftlint autocorrect --format\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+		51BFAADA9087CE4CBAC76154 /* Carthage */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/JTAppleCalendar.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxCocoa.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxRelay.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxSwift.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/SQLite.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/SwiftDate.framework",
+			);
+			name = Carthage;
+			outputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/JTAppleCalendar.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/RxCocoa.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/RxRelay.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/RxSwift.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/SQLite.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/SwiftDate.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "carthage copy-frameworks\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		01C5948DDFAB0427609482F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F9E87592947A4DEDB1881F5 /* AlertType.swift in Sources */,
+				029B5FD607059025CEACF3AE /* AppDelegate.swift in Sources */,
+				117AA075A7835EA796E641E3 /* BCDateCell.swift in Sources */,
+				03B2FA792E819E8896D63289 /* BCViewController.swift in Sources */,
+				C44FEC4C3295649787687902 /* Baby.swift in Sources */,
+				08B12D17B0DBC4BD012BBAD7 /* BabyAction.swift in Sources */,
+				8862BBF05880F21810C4A23B /* BabyDispatcher.swift in Sources */,
+				6A3D6059745F721FB55F7EBA /* BabyModel.swift in Sources */,
+				DD2AD1A476EEFD61BA7CA254 /* BabyNameViewController.swift in Sources */,
+				BD39CD8D4B10C583DE24AF0B /* BabyStore.swift in Sources */,
+				4F87ACBEE1BAF902A145EED8 /* BabyUnit.swift in Sources */,
+				904692AD2AAF4F70E796D3B8 /* BorderView.swift in Sources */,
+				71A9F547D7C577B9526E8427 /* CalendarAction.swift in Sources */,
+				4B52A7A820FB1267AEDD694D /* CalendarDateCell.swift in Sources */,
+				C4A5CA319F6F8D79270F0E7D /* CalendarDispatcher.swift in Sources */,
+				8A9E0F328DF118571706A2BE /* CalendarHTMLFormatter.swift in Sources */,
+				F63EAEA90BAA7FB1E742BB77 /* CalendarView.swift in Sources */,
+				426EC867B2024ED0FF598555 /* CalendarViewController.swift in Sources */,
+				5D184C4235FECA20626F69D7 /* CalnedarStore.swift in Sources */,
+				318A067FED8A8ECA6B6FDB7E /* Cell.swift in Sources */,
+				00F6A654FF5F40B0459786D0 /* ColumnLabel.swift in Sources */,
+				D722B9401577DAF3ED57A1AC /* CommentAndDetails.swift in Sources */,
+				680DE94F97D8C647B401A2DB /* CommentViewController.swift in Sources */,
+				0E462576875E34756EA21B8C /* DailyRecord.swift in Sources */,
+				32EDF5239068A268510363D2 /* Database.swift in Sources */,
+				EAB53E5AD13EE0AE8934485D /* DatabaseHelper.swift in Sources */,
+				72E7C40EFEC8F6502F7425B5 /* DateHeader.swift in Sources */,
+				F15928B243EB37D7DC268BC3 /* DateTextField.swift in Sources */,
+				05D05660E6F7AEDBB4789B73 /* Diaper.swift in Sources */,
+				7A3A6D79B33D98458A415467 /* Flux.swift in Sources */,
+				FFD50136561B9683AC0CF94E /* HTMLRendererViewController.swift in Sources */,
+				E42E62374B0F3836757D6CA0 /* HourlyRecord.swift in Sources */,
+				981DBCC5A565540504554B1D /* Image.swift in Sources */,
+				45D1D59B92E57A6173398C4E /* Language.swift in Sources */,
+				93D1180E997C8CB29096F942 /* MainAction.swift in Sources */,
+				4E1FD2883C0433716513BD81 /* MainDispatcher.swift in Sources */,
+				531019E34F72DE45239209C5 /* MainStore.swift in Sources */,
+				B46F0EE6D6D75E379B9D131F /* MainViewController.swift in Sources */,
+				C3F28F879229E7487954AD46 /* MainViewModel.swift in Sources */,
+				5F03CEB68F131CA849602154 /* MemoViewController.swift in Sources */,
+				AF71138EAAECAB66AF2547B5 /* MenuViewController.swift in Sources */,
+				7192621DCAFA6418C6594605 /* Milk.swift in Sources */,
+				8A4065F15B494F02751E62CE /* ModelProtocol.swift in Sources */,
+				CD0BBBF254646EA38D70B337 /* NSObjectProtocol.extension.swift in Sources */,
+				E8180EBF238B8C0DE94A942C /* NameTextField.swift in Sources */,
+				FE77ED4B93954A0CCE15C901 /* NoteAction.swift in Sources */,
+				F998E986E3E82E9F58067242 /* NoteCell.swift in Sources */,
+				4D5108B2A46C18E634696AC6 /* NoteCellModel.swift in Sources */,
+				80110C103ECADB11E54408C9 /* NoteCellType.swift in Sources */,
+				A86CB533B618257CF2CBA842 /* NoteCellViewModel.swift in Sources */,
+				86DF53E04FF96A131EB9116A /* NoteDispatcher.swift in Sources */,
+				085F9ED317D88DAF3197143F /* NoteModel.swift in Sources */,
+				DD56ED361A586D10F15A11AD /* NotePageModel.swift in Sources */,
+				AE23ADB34B5D4C5BD86CFFD3 /* NotePageViewController.swift in Sources */,
+				3CD12D84A262DACAB6E80C4A /* NotePageViewModel.swift in Sources */,
+				C4FFC052099A241E36EE9201 /* NoteStore.swift in Sources */,
+				54530DDFAB52688F46D7E7E0 /* NoteViewController.swift in Sources */,
+				AF6473B18D8196390B2D8BE3 /* NoteViewDataSource.swift in Sources */,
+				EEB548822792B0B0A1FA1467 /* NoteViewModel.swift in Sources */,
+				F7F6E8E6DD67F9821E3E7C83 /* PopoverType.swift in Sources */,
+				623750CBBD68964DCDE2FC9E /* PopoverViewController.swift in Sources */,
+				336C671E21AD1CFAF1E399F2 /* PrintableCalendar.swift in Sources */,
+				DEEEC8D5A894D68ED2B5F020 /* Record.swift in Sources */,
+				3F5B82EB22883F0E6129532D /* RoundView.swift in Sources */,
+				803482E5E4C9E4CFF2014C0B /* SCDateCell.swift in Sources */,
+				0E4E9BD12D768B60FBF3BDFD /* SCViewController.swift in Sources */,
+				EA7D67B06EAC1526E2B01139 /* SaveView.swift in Sources */,
+				B385383CD029358643B8B3E1 /* SelectBabyButton.swift in Sources */,
+				AD629548A0F4276F70BA3B48 /* SetDateView.swift in Sources */,
+				9C6E6D285F96B6FB5E7ED5CE /* SettingView.swift in Sources */,
+				119F6B9E223FE02B3FFCDF5D /* Settings.swift in Sources */,
+				38E24151682DE71F5F408EC3 /* SettingsAction.swift in Sources */,
+				0447AF5EC54B213E0AF4584C /* SettingsDispatcher.swift in Sources */,
+				D54740FBE5E41F6665C32518 /* SettingsModel.swift in Sources */,
+				660C8E629313F6AFBE1D0663 /* SettingsStore.swift in Sources */,
+				AE9BCA19366A0C603E3441DF /* SettingsViewController.swift in Sources */,
+				DA20DC0E8AE047F74EA1C16E /* SettingsViewDataSource.swift in Sources */,
+				534DD3C098307615CFD6847D /* SettingsViewModel.swift in Sources */,
+				594072C5B3E973D6E9D145C8 /* Sleep.swift in Sources */,
+				B268AD06BEE8F63655A04200 /* SleepUnit.swift in Sources */,
+				BA6D7F8BFCD1567F9761E78C /* SleepUnitViewController.swift in Sources */,
+				EFE660D7142B7F98C60F6391 /* Theme.swift in Sources */,
+				9BA9174F1026B1B419D8B5FD /* ThemeCollerViewController.swift in Sources */,
+				FA76F434EA2AA1A825A2C965 /* UIViewController.swift in Sources */,
+				8CCB7F9BF8E0B591F318B3A8 /* Value.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		041DAAF606E53F8AF5D17B68 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A62A812424B2476B85273C0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		89825CD6F7F058B5578A8272 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C2954F2EEADA739C6FB6913 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		10B79596FD8CD2A06D96A49E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4399D0E6631F5DA2F34917D7 /* Debug.xcconfig */;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+			};
+			name = Debug;
+		};
+		3F6C1DD3FFD74AB6C165D7D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FEE8F60C10598B1971677BE /* HappyBabyNotes-Debug.xcconfig */;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+			};
+			name = Debug;
+		};
+		765AC812FEC7CE562035827D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 582534FFFB1E45D1E784CE73 /* HappyBabyNotes-Release.xcconfig */;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+			};
+			name = Release;
+		};
+		791C03E658B64F7A9C271241 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71ACD6CD83E152DA200A1629 /* Release.xcconfig */;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0F78618FEA5561C214FB56CC /* Build configuration list for PBXNativeTarget "HappyBabyNotes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F6C1DD3FFD74AB6C165D7D6 /* Debug */,
+				765AC812FEC7CE562035827D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C64B2A0539671812F60EC3C3 /* Build configuration list for PBXProject "HappyBabyNotes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10B79596FD8CD2A06D96A49E /* Debug */,
+				791C03E658B64F7A9C271241 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9FFAA8059A85E5C2DF9C978C /* Project object */;
+}
